@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
 import 'dart:io';
 
 main() {
@@ -19,7 +20,7 @@ List<int> compareTriplets(List<int> a, List<int> b) {
       alice++;
     } else if (a[i] < b[i]) {
       bob++;
-    } else {}
+    }
   }
   return [alice, bob];
 }
