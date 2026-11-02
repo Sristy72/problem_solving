@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main() {
-  stdout.write('Enter the array size');
+  stdout.write('Enter the array size: ');
 
   int arraySize = int.parse(stdin.readLineSync()!);
   List<int> items = stdin.readLineSync()!.split(' ').map(int.parse).toList();
